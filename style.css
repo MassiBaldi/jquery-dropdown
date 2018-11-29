@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+.container {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.nav_left, .nav_right {
+  float: left;
+  height: 100%;
+}
+.nav_left {
+  width: 30%;
+}
+.nav_left img {
+  height: 30px;
+  margin: 25px 0;
+}
+.nav_left_item, .nav_right_item {
+  float: right;
+  margin: 0 20px;
+  line-height: 80px;
+}
+.nav_right_item {
+  position: relative;
+}
+.nav_left_item a, .nav_right_item a {
+  text-decoration: none;
+  color: #a0a6ad;
+}
+.nav_left_item a:hover, .nav_right_item a:hover {
+  color: black;
+}
+.nav_right {
+  width: 70%;
+}
+.nav_right_item {
+  margin: 0 15px;
+}
+.nav_right_item a.btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  background: rgb(235, 0, 141);
+}
+.dmaccount, .dmproduct, .dmcompany, .dmhelp, .dmen {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px lightgrey;
+}
+.account, .product, .company, .help, .en {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+}
+.account:hover, .product:hover, .company:hover, .help:hover, .en:hover {
+  background: lightgrey;
+  border-radius: 4px;
+}
+.dmaccount {
+  width: 150px;
+  height: 150px;
+}
+.dmproduct {
+  width: 250px;
+  height: auto;
+}
+.dmcompany {
+  width: 100px;
+  height: auto;
+}
+.dmhelp {
+  width: 130px;
+  height: auto;
+}
+.dmen{
+  width: 100px;
+  height: auto;
+}
+.personal, .business {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 100%;
+  height: 585px;
+}
+.personal img, .business img {
+  height: 585px;
+}
+.open {
+  display: block;
+}
